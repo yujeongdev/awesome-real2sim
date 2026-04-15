@@ -15,7 +15,7 @@
 
 ## 🚩 News & Updates
 
-- **2026-04** — Initial MVP structure: definition, reading path, resource taxonomy, validation checklist, and simulator-format guide.
+- **2026-04** — Initial MVP structure: definition, reading path, resource taxonomy, and validation checklist.
 
 ## 📋 Contents
 
