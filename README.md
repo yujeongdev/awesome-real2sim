@@ -13,6 +13,12 @@
 
 ---
 
+## Sibling Projects
+
+- [Awesome Sim-Ready 3D Asset Generation](https://github.com/yujeongdev/awesome-sim-ready) — object-level assets: geometry, articulation, physical properties, simulator formats, and asset validation.
+- [Awesome Sim2Real Environments](https://github.com/yujeongdev/awesome-sim2real-environments) — environment-level systems: scenes, digital twins, sensors, physics, calibration, and validation.
+- [Awesome Sim2Real Learning](https://github.com/yujeongdev/awesome-sim2real-learning) — policy-level transfer: RL/IL, domain randomization, curricula, policy evaluation, and deployment case studies.
+
 ## 🚩 News & Updates
 
 - **2026-04** — Initial MVP structure: definition, reading path, resource taxonomy, and validation checklist.
@@ -336,7 +342,7 @@ If this list helps your work, cite the repository URL for now:
 ```bibtex
 @misc{awesome_sim_ready_asset_generation,
   title        = {Awesome Sim-Ready 3D Asset Generation},
-  howpublished = {\url{https://github.com/techhouse-looper/awesome-sim-ready}},
+  howpublished = {\url{https://github.com/yujeongdev/awesome-sim-ready}},
   year         = {2026}
 }
 ```
