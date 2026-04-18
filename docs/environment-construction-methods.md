@@ -226,6 +226,19 @@ should I use?” to “how do I construct the environment instance?” Current t
   cluttered manipulation.
   *Caveat:* benchmark/data-generator style; check real-world validation coverage.
 
+- **[2026] RoboLab — A High-Fidelity Simulation Benchmark for Analysis of Task
+  Generalist Policies** `[E][R][O][S][L][V]` 🧰 📦
+  Manually or agentically arranged scenes + language instructions → Isaac Lab
+  task libraries and robot-agnostic runnable environments. Links:
+  [project](https://research.nvidia.com/labs/srl/projects/robolab/) ·
+  [paper](https://arxiv.org/abs/2604.09860) ·
+  [code](https://github.com/NVLabs/RoboLab)
+  *Why engineers care:* provides a reproducible environment-generation and
+  evaluation substrate for 120 manipulation tasks, controlled perturbations, and
+  policy-server benchmarking.
+  *Caveat:* not real-scene reconstruction; include it here for task/environment
+  generation and in `awesome-sim2real-learning` for policy-evaluation use.
+
 ### Demonstration-to-synthetic-rollout pipelines
 
 - ⭐ **[2026] ComSim — Building Scalable Real-World Robot Data Generation via
