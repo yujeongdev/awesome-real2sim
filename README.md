@@ -343,6 +343,12 @@ See [docs/environment-construction-methods.md](docs/environment-construction-met
   *Why engineers care:* combines simulator action consistency with neural realism rather than hand-authoring every environment.
   *Caveat:* verify whether neural translation improves behavior-relevant gaps or mainly appearance.
 
+- **[2026] RoboLab — A High-Fidelity Simulation Benchmark for Analysis of Task Generalist Policies** `[E][R][O][S][L][V]` 🌐🛠️📦🤖🧾
+  Scene/task descriptions → Isaac Lab task libraries and runnable robot-agnostic policy-evaluation environments.
+  Links: [project](https://research.nvidia.com/labs/srl/projects/robolab/) · [paper](https://arxiv.org/abs/2604.09860) · [code](https://github.com/NVLabs/RoboLab)
+  *Why engineers care:* packages scene generation, language-conditioned task generation, environment perturbations, and multi-policy evaluation into a reproducible manipulation benchmark.
+  *Caveat:* benchmark/environment-generation substrate rather than real-scene reconstruction; use alongside the sibling sim2real list for policy-transfer interpretation.
+
 <a id="calibration-validation"></a>
 
 ## 🎚️ Calibration, Domain Gap, and Validation
